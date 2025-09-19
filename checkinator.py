@@ -28,10 +28,6 @@ class ValueCheck:
             return False
         return True
 
-    def is_date_appropriate(self, date, app_date):
-        if date.day != int(app_date):
-            return False
-        return True
 
     def is_length_valid(self, name):
         try:
